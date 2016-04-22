@@ -1,22 +1,14 @@
 <template>
   <div id="app">
-
+    <todo></todo>
   </div>
 </template>
 
 <script>
-
+import Todo from './components/Todo';
+export default {
+  components: {
+    Todo
+  }
+}
 </script>
-
-<style>
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-</style>
