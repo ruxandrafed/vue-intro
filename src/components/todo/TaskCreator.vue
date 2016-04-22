@@ -1,6 +1,6 @@
 <template>
   <form v-on:submit.prevent="addTask">
-    <input  type="text" v-model="newTaskTitle" v-el:title-input></input>
+    <input type="text" v-model="newTaskTitle" v-el:title-input></input>
     <button type="submit">Add</button>
   </form>
 </template>
